@@ -1,4 +1,5 @@
 # AWS Pricing Models
+
 Quick Notes
 
 1. Pay-as-you-go
@@ -12,7 +13,6 @@ Quick Notes
 
 2. Reserved Instances (RI)
 
--
 - Commit for 1 or 3 years.
 - Up to ~72% cheaper than On-Demand in many cases.
 - Best for stable production workloads.
@@ -28,10 +28,10 @@ Quick Notes
 
 **Best for**:
 
-CI/CD jobs
-Batch processing
-Testing
-Big data
+- CI/CD jobs
+- Batch processing
+- esting
+- Big data
 
 # Savings Plans
 
@@ -44,16 +44,16 @@ Big data
 
 ![alt text](image.png)
 
-33.**Service Models**
+3. **Service Models**
 1. IaaS
 
 - Infrastructure provided by cloud provider.
 
 - Examples
   
-  EC2
-  EBS
-  VPC
+  - EC2
+  - EBS
+  - VPC
 
 - You manage:
   
@@ -69,58 +69,69 @@ Big data
 
 - Examples
   
-  Lambda
-  Elastic Beanstalk
- AWS Fargate
+  - Lambda
+  - Elastic 
+  - Beanstalk
+  - AWS Fargate
 
 - You manage:
-Code
-Application
+- Code
+- Application
 
 3. SAAS
 
 AWS manages:
-  Infrastructure
-  OS
-  Scaling
-  SaaS
+  
+  - Infrastructure
+  - OS
+  - Scaling
 
 - Ready-to-use software.
 
-Examples
+  - Examples
 
-  WorkMail
-  QuickSight
-  Chime
+  - WorkMail
+  - QuickSight
+  - Chime
 
-No infrastructure management.
+- No infrastructure management.
 
 # AWS History
 Important Milestones
 Year	Milestone
+
 2002	AWS launched
+
 2006	Amazon S3 introduced
+
 2006	Amazon EC2 launched
+
 2014	AWS Lambda introduced (Serverless Computing)
+
 2015+	Global expansion with Regions and Availability Zones
+
 Today	AWS is one of the world's leading cloud platforms
+
 LinkedIn Carousel Idea
 
 Slide 1
 AWS Journey
 
+
 Slide 2
 2002
 
+
 AWS Started
 
-Slide 3
 
+Slide 3
 2006
 
 Amazon S3
 
 Cloud Storage Revolution
+
 
 Slide 4
 
@@ -130,6 +141,7 @@ Amazon EC2
 
 Virtual Servers in Minutes
 
+
 Slide 5
 
 2014
@@ -138,12 +150,17 @@ AWS Lambda
 
 Serverless Computing
 
+
 Slide 6
 
 Today
 
+
 200+ Services
+
 Millions of Customers
+
 Global Cloud Infrastructure
+
 Widely used for AI, DevOps, Analytics, and Enterprise Applications
 
