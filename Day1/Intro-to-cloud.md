@@ -1,95 +1,101 @@
-1. **AWS Pricing Models**
+# AWS Pricing Models
 Quick Notes
 
 1. Pay-as-you-go
-Pay only for the resources you use.
-No long-term commitment.
-Best for learning, testing, and unpredictable workloads.
 
-Example:
-Launch an EC2 instance for 5 hours → Pay only for those 5 hours.
+- Pay only for the resources you use.
+- No long-term commitment.
+- Best for learning, testing, and unpredictable workloads.
+
+- Example:
+  Launch an EC2 instance for 5 hours → Pay only for those 5 hours.
 
 2. Reserved Instances (RI)
-Commit for 1 or 3 years.
-Up to ~72% cheaper than On-Demand in many cases.
-Best for stable production workloads.
 
-Example:
-A company running the same database server 24×7.
+-
+- Commit for 1 or 3 years.
+- Up to ~72% cheaper than On-Demand in many cases.
+- Best for stable production workloads.
+
+- Example:
+  A company running the same database server 24×7.
 
 3. Spot Instances
-Use AWS's unused capacity.
-Can be up to 90% cheaper.
-AWS can terminate them anytime.
 
-Best for:
+- Use AWS's unused capacity.
+- Can be up to 90% cheaper.
+- AWS can terminate them anytime.
+
+**Best for**:
 
 CI/CD jobs
 Batch processing
 Testing
 Big data
 
-4. Savings Plans
-Commit to a certain amount of usage.
-Flexible across supported services.
-Often a good option for organizations with predictable spend.
+# Savings Plans
+
+- Commit to a certain amount of usage.
+- Flexible across supported services.
+- Often a good option for organizations with predictable spend.
 
 
-2. **Compare Cloud Models**
+# Cloud Models
 
 ![alt text](image.png)
 
 33.**Service Models**
 1. IaaS
 
-Infrastructure provided by cloud provider.
+- Infrastructure provided by cloud provider.
 
-Examples
+- Examples
+  
+  EC2
+  EBS
+  VPC
 
-EC2
-EBS
-VPC
+- You manage:
+  
+  OS
+  Applications
+  Data
+  PaaS
 
-You manage:
-
-OS
-Applications
-Data
-PaaS
 
 2. PAAS 
-Platform managed by AWS.
 
-Examples
+- Platform managed by AWS.
 
-Lambda
-Elastic Beanstalk
-AWS Fargate
+- Examples
+  
+  Lambda
+  Elastic Beanstalk
+ AWS Fargate
 
-You manage:
-
+- You manage:
 Code
 Application
 
 3. SAAS
+
 AWS manages:
+  Infrastructure
+  OS
+  Scaling
+  SaaS
 
-Infrastructure
-OS
-Scaling
-SaaS
-
-Ready-to-use software.
+- Ready-to-use software.
 
 Examples
 
-WorkMail
-QuickSight
-Chime
+  WorkMail
+  QuickSight
+  Chime
 
 No infrastructure management.
 
-4. AWS History
+# AWS History
 Important Milestones
 Year	Milestone
 2002	AWS launched
